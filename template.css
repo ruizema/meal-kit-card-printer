@@ -1,0 +1,71 @@
+@media print {
+    @page {
+        size: 210mm 297mm;
+        margin-left: 13mm;
+        margin-right: 13mm;
+        margin-top: 13mm;
+        margin-bottom: 19mm;
+    }
+}
+
+#title-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#title-row > div {
+    block-size: 25mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-block {
+    inline-size: 25mm;
+    /* background-color: red; */
+}
+
+#title-block {
+    inline-size: 134mm;
+    /* background-color: blue; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10mm;
+    padding-right: 10mm;
+}
+
+#title {
+    font-family: 'Harriet Text', sans-serif;
+    font-size: 24px;
+    color: rgb(31, 123, 122);
+    text-align: center;
+}
+
+#subtitle {
+    color: rgb(31, 123, 122);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+
+#url {
+    inline-size: 25mm;
+    font-size: 10px;
+    /* background-color: green; */
+    color: rgb(34, 185, 183);
+}
+
+#logo {
+    max-width: 100%;
+}
+
+#picture-block {
+    /* background-color: red; */
+    block-size: 110mm;
+}
+
+#main-pic > img {
+    max-width: 100%;
+    max-height: 100%;
+}
